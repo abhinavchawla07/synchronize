@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "675077066268",
+    "project_id": "synchronize-ar",
+    "storage_bucket": "synchronize-ar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675077066268:android:6b0a3bda2e607cdc9499d9",
+        "android_client_info": {
+          "package_name": "com.augmentedreality.synchronize"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675077066268-8cam1umrmi13gf9r6729shuv6sbaq9lm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_RUU8AdRrS2GijufRg89X_nnRp-iVbPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675077066268-8cam1umrmi13gf9r6729shuv6sbaq9lm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

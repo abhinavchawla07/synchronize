@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>675077066268-jjrvitnvjmjjsuiun19a7sj8bf0n28cp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.675077066268-jjrvitnvjmjjsuiun19a7sj8bf0n28cp</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAqHXVd5pWPhfMC72FvL5RyNvBUAkPyElw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>675077066268</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.augmentedreality.synchronize</string>
+	<key>PROJECT_ID</key>
+	<string>synchronize-ar</string>
+	<key>STORAGE_BUCKET</key>
+	<string>synchronize-ar.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:675077066268:ios:f5db6aaef174493a9499d9</string>
+</dict>
+</plist>
