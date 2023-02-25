@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:synchronize/constants.dart' as app_constants;
+import 'package:synchronize/pages/about/about_page.dart';
 import 'package:synchronize/pages/home/components/body.dart';
 
 class HomePage extends StatelessWidget {
@@ -14,7 +15,7 @@ class HomePage extends StatelessWidget {
           AppBar(title: const Text(app_constants.Constants.title), actions: [
         IconButton(
           onPressed: () {
-
+            Navigator.pushNamed(context, AboutPage.pageRoute);
           },
           icon: const Icon(Icons.info_outline),
         )

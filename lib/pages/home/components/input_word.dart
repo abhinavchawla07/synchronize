@@ -43,6 +43,7 @@ class _InputWordState extends State<InputWord> {
               if(_formKey.currentState!.validate()) {
                 widget.onSubmitPressed(widget.inputController.text);
                 widget.inputController.text = "";
+                FocusManager.instance.primaryFocus?.unfocus();
               }
             },
             style: const ButtonStyle(

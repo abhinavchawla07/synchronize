@@ -1,0 +1,2 @@
+const String ABOUT_TEXT =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc metus lacus, aliquet quis lobortis eu, fringilla sed libero. Fusce vestibulum odio non sapien rhoncus, semper mollis elit faucibus. Phasellus pulvinar pulvinar laoreet. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi sed nunc a diam maximus accumsan ac a leo. Nulla facilisi. Vestibulum dignissim massa quis augue bibendum, id semper libero porttitor. In ullamcorper est viverra enim viverra, ut scelerisque sapien consectetur.";
