@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:synchronize/pages/about/about_page.dart';
 import 'package:synchronize/pages/home/home.dart';
 
 class Constants {
   static const String title = "Synchronize";
   static final Map<String, WidgetBuilder> routes = {
     HomePage.pageRoute: (context) => const HomePage(),
+    AboutPage.pageRoute: (context) => const AboutPage(),
   };
 }
 class Colors {
