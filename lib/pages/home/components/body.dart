@@ -1,22 +1,28 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:synchronize/constants.dart' as app_constants;
 import 'package:synchronize/pages/home/components/input_word.dart';
 import 'package:synchronize/pages/home/components/score_card.dart';
 
+import '../../../models/game.dart';
+
 class Body extends StatelessWidget {
-  final String word_1;
-  final String word_2;
-  final String score;
+  final Game game;
+  late String word_1;
+  late String word_2;
+  late String score;
   final Function onSubmitPressed;
   final TextEditingController _inputWordController = TextEditingController();
 
   Body({
-    Key? key,
-    required this.word_1,
-    required this.word_2,
-    required this.score,
+    super.key,
+    required this.game,
     required this.onSubmitPressed,
-  }) : super(key: key);
+  }) {
+    score = "${game.score}";
+    int minSize = min(game.wordlist_1.length, game.wordlist_2.length);
+  }
 
   @override
   Widget build(BuildContext context) {
